@@ -1,0 +1,90 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(to left, rgb(233, 214, 255), rgb(173, 255, 232));
+}
+
+.container {
+    width: 100%;
+    /* display: flex; */
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.innerContainer {
+    /* border: 1px solid black; */
+    width: 50%;
+    height: 100%;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+}
+
+.tagLine {
+    margin-top: 70px;
+    font-size: x-large;
+    text-shadow: 2px 2px rgb(250, 252, 191);
+    color: rgb(32, 31, 71);
+    font-weight: 700;
+}
+
+.midLine {
+    display: flex;
+    margin: 20px;
+}
+
+.midLine p,
+input,
+button {
+    margin: 10px;
+}
+
+.generatebtn {
+    padding: 4px;
+    font-size: large;
+    width: 120px;
+    margin: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: rgb(244, 249, 119);
+    color: rgb(32, 31, 71);
+
+}
+
+.generatebtn:hover {
+    background-color: rgb(247, 250, 174);
+    color: rgb(92, 90, 150);
+}
+
+.count {
+    width: 40px;
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    background-color: rgba(240, 240, 229, 0.635);
+
+}
+
+.para {
+    font-size: x-large;
+    color: rgb(32, 31, 71);
+    text-shadow: 2px 2px rgb(250, 252, 191);
+    font-weight: 700;
+    font-family: sans-serif;
+}
+
+.randomParagraph{
+    padding: 2rem 20%;
+}
+
+.randomParagraph p + p{
+    margin-top: 1rem;
+}
